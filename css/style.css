@@ -61,6 +61,7 @@ img {
     --modal-bg: #1a1c24;
     --card-bg: rgb(146 151 179 / 13%);
     --main-container-bg: rgba(16 18 27 / 40%);
+    --main-container-bg-2: rgba(16 18 27 / 40%);
     --tel-color: #3bf083;
 
     background: #232526;
@@ -73,7 +74,7 @@ img {
 }
 
 .light-mode {
-    --theme-bg-color: rgb(255 255 255 / 40%);
+    --theme-bg-color: rgb(255 255 255 / 30%);
     --theme-color: #3c3a3a;
     --popup-bg: rgb(255 255 255);
     --inactive-color: #333333;
@@ -85,17 +86,16 @@ img {
     --hover-menu-bg: rgba(255 255 255 / 35%);
     --overlay-bg: rgb(1 2 3 / 80%);
     --content-title-color: #3c3a3a;
-    --content-bg: rgb(255 255 255 / 40%);
+    --content-bg: rgb(255 255 255 / 60%);
     --about-bg: #f8f7fa;
     --modal-bg: rgb(255 255 255 / 40%);
-    --card-bg: rgba(255 255 255 / 80%);
-    --main-container-bg: #dbd3e6;
+    --card-bg: rgba(255 255 255 / 70%);
+    --main-container-bg: rgb(255 255 255 / 50%);
+    --main-container-bg-2: #dbd3e6;
     --tel-color: #ff4b78;
 }
 
 .light-mode-bg {
-    background: #D3CCE3;
-    /* fallback for old browsers */
     background: linear-gradient(to left bottom,
             #cf4af3,
             #e73bd7,
@@ -109,6 +109,7 @@ img {
             #ffaa49,
             #ffc848,
             #ffe652);
+    ;
 }
 
 .app {
@@ -122,8 +123,6 @@ img {
     width: 100%;
     border-radius: 14px;
     border: 1px solid var(--border-color);
-    /* backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px); */
     font-size: 15px;
     font-weight: 500;
 }
@@ -245,7 +244,7 @@ img {
     padding: 10px;
     border-radius: 6px;
     font-size: 14px;
-    background-color: var(--content-bg);
+    background-color: var(--main-container-bg);
     box-shadow: 0 0 0 2px rgb(134 140 160 / 2%);
     cursor: pointer;
 }
@@ -271,7 +270,7 @@ img {
     height: 0;
     opacity: 0;
     width: 100%;
-    z-index: 100;
+    z-index: 1000;
     color: var(--theme-color);
     background-color: var(--content-bg);
     font-weight: 400;
@@ -304,7 +303,7 @@ img {
 }
 
 .select-item:hover {
-    background-color: var(--content-bg);
+    background-color: var(--main-container-bg);
     transition: all .2s ease;
 }
 
@@ -375,9 +374,7 @@ img {
     padding: 20px 40px;
     height: 100%;
     width: 100%;
-    background-color: var(--content-bg);
-    scroll-behavior: smooth;
-
+    background-color: var(--main-container-bg);
 }
 
 .intro {
@@ -551,7 +548,7 @@ img {
 .card-about {
     margin: 0 auto;
     width: 65%;
-    height: 98%;
+    height: 99%;
     font-weight: 500;
     font-size: 17px;
     line-height: 1.5;
@@ -641,7 +638,7 @@ img {
 .modal {
     position: fixed;
     bottom: 0;
-    background-color: var(--main-container-bg);
+    background-color: var(--main-container-bg-2);
     max-width: 1250px;
     width: 100%;
     height: 90%;
@@ -650,7 +647,6 @@ img {
     border: 4px solid var(--border-color);
     border-radius: 14px;
     transition: .3s ease-out;
-    will-change: scroll-position;
     overflow: auto;
 }
 
@@ -962,6 +958,12 @@ img {
         padding: 0;
     }
 
+    .light-mode-bg {
+        background: #D3CCE3;
+        background: -webkit-linear-gradient(-45deg, #E9E4F0, #D3CCE3);
+        background: linear-gradient(-45deg, #E9E4F0, #D3CCE3);
+    }
+
     .header {
         padding: 0 20px;
     }
@@ -1018,6 +1020,7 @@ img {
         overflow: hidden;
         text-overflow: ellipsis;
         padding: 8px 5px;
+        background: var(--main-container-bg-2);
     }
 
     .select-input::after {
@@ -1062,6 +1065,10 @@ img {
 
     .direct-mail {
         display: none;
+    }
+
+    .main-container {
+        background-color: var(--main-container-bg-2);
     }
 
     /* Card */
