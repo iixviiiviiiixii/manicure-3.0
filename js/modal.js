@@ -2,7 +2,7 @@ function _createModal(options) {
     const modal = document.createElement('div')
     modal.classList.add('modal-wrapper')
     modal.insertAdjacentHTML('afterbegin', `
-    <div onclick="myfunc()" class="modal-overlay" data-close="true">        
+    <div class="modal-overlay" data-close="true">        
         <div class="modal" id="modalScrll0" data-content>
             
         </div> 

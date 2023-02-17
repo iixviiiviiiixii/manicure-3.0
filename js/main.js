@@ -77,15 +77,14 @@ document.addEventListener('click', event => {
                         </div>
                     </div>
                     <div class="modal-footer">
+                    <div class="portfolio">
+                        <div class="modal-title">Портфолио</div>
+                            ${cardId.portfolio}
+                        </div>
                         <div class="modal-title">Адрес и телефон</div>
                         <div class="address-wrapper">
                             ${cardId.address}
                         </div>    
-                        
-                        <div class="portfolio">
-                            <div class="modal-title">Галерея</div>
-                            ${cardId.portfolio}
-                        </div>
                         <div class="social">
                             <div class="modal-title">Ссылки</div>
                             <div class="social-wrapper">
@@ -111,6 +110,8 @@ function myfunc2() {
     var containerScrll0 = document.getElementById('containerScrll0')
     containerScrll0.scrollTop = 0
 }
+
+
 
 // Select
 
@@ -188,27 +189,27 @@ selectDropdown.addEventListener('click', event => {
 let $toggler = document.getElementById('toggler'),
     toggleButton = document.querySelector('.dark-light');
 
-if (toggleButton.classList.contains('light-mode')) {
-    $toggler.querySelector('#light').style.display = 'none';
-    $toggler.querySelector('#dark').style.display = 'block';
-} else {
+if (toggleButton.classList.contains('dark-mode')) {
     $toggler.querySelector('#light').style.display = 'block';
     $toggler.querySelector('#dark').style.display = 'none';
+} else {
+    $toggler.querySelector('#light').style.display = 'none';
+    $toggler.querySelector('#dark').style.display = 'block';
 }
 
 $toggler.addEventListener('click', function () {
-    toggleButton.classList.toggle('light-mode');
+    toggleButton.classList.toggle('dark-mode');
 
-    if (toggleButton.classList.contains('light-mode')) {
-        $toggler.querySelector('#light').style.display = 'none';
-        $toggler.querySelector('#dark').style.display = 'block';
-    } else {
+    if (toggleButton.classList.contains('dark-mode')) {
         $toggler.querySelector('#light').style.display = 'block';
         $toggler.querySelector('#dark').style.display = 'none';
+    } else {
+        $toggler.querySelector('#light').style.display = 'none';
+        $toggler.querySelector('#dark').style.display = 'block';
     }
 })
 
 toggleButton.addEventListener('click', () => {
-    document.body.classList.toggle('light-mode');
-    document.body.classList.toggle('light-mode-bg');
+    document.body.classList.toggle('dark-mode');
+    document.body.classList.toggle('dark-mode-bg');
 });
