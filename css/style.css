@@ -470,7 +470,6 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
 }
 
 .card-user {
@@ -479,8 +478,8 @@ img {
 }
 
 .card-ava {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     border: 1px solid var(--card-bg);
     object-fit: cover;
@@ -522,14 +521,19 @@ img {
 }
 
 .card-body {
+    padding-top: 20px;
     display: flex;
     align-items: center;
     width: 100%;
+    height: 100%;
     overflow: hidden;
 }
 
+
+
 .card-galery-wrapper {
     margin-right: 20px;
+
 }
 
 .card-galery {
@@ -547,10 +551,11 @@ img {
 .card-about {
     margin: 0 auto;
     width: 65%;
-    height: 99%;
+    height: 100%;
     font-weight: 500;
     font-size: 17px;
     line-height: 1.5;
+    overflow: hidden;
 }
 
 .click-card {
@@ -640,7 +645,7 @@ img {
     background-color: var(--main-container-bg-2);
     max-width: 1250px;
     width: 100%;
-    height: 90%;
+    height: 94%;
     overflow: visible;
     transform: translateY(100%);
     border: 3px solid var(--border-color);
@@ -777,7 +782,7 @@ img {
     /* margin-bottom: 10px; */
     margin-top: 30px;
     color: var(--content-title-color);
-    /* text-align: center; */
+    text-align: center;
 }
 
 .pricelist-category:first-child {
@@ -1176,8 +1181,8 @@ img {
     }
 
     .ava {
-        width: 60px;
-        height: 60px;
+        width: 70px;
+        height: 70px;
         margin-right: 10px;
     }
 
@@ -1308,13 +1313,12 @@ img {
     }
 
     .card-header {
-        margin-bottom: 10px;
         padding: 0 0 0 5px;
     }
 
     .card-ava {
-        height: 32px;
-        width: 32px;
+        height: 35px;
+        width: 35px;
         margin-right: 5px;
     }
 
@@ -1330,6 +1334,10 @@ img {
     .card-dot-badge {
         height: 5px;
         width: 5px;
+    }
+
+    .card-body {
+        padding-top: 10px;
     }
 
     .card-galery-wrapper {
@@ -1348,7 +1356,7 @@ img {
     }
 
     .card-about {
-        font-size: 13px;
+        font-size: 12px;
         line-height: 1.5;
     }
 
@@ -1360,8 +1368,8 @@ img {
     }
 
     .ava {
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
     }
 
     .name-user {
