@@ -1290,8 +1290,8 @@ img {
         position: absolute;
         background-color: var(--theme-bg-color);
         z-index: 100;
-        backdrop-filter: blur(50px);
-        -webkit-backdrop-filter: blur(50px);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
         border: none;
     }
 
