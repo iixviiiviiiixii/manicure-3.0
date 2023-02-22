@@ -32,41 +32,159 @@
                 <div class="side-wrapper">
                     <div class="side-select">
                         <div class="select-wrapper">
-                            <div class="side-title">Выбрать район</div>
+                            <div class="side-title">Выбрать метро</div>
                             <div id="select" class="select">
                                 <div class="select-input">
-                                    Все районы
+                                    Все
                                 </div>
                                 <div class="select-dropdown">
                                     <ul class="select-list">
-                                        <li onclick="myfunc2()" class="select-item" data-id="all">Все районы</li>
-                                        <li onclick="myfunc2()" class="select-item" data-id="admiralteysky">
-                                            Адмиралтейский</li>
-                                        <li onclick="myfunc2()" class="select-item" data-id="vasileostrovsky">
-                                            Василеостровский</li>
-                                        <li onclick="myfunc2()" class="select-item" data-id="viborgsky">Выборгский</li>
-                                        <li onclick="myfunc2()" class="select-item" data-id="kalininsky">Калининский
+                                        <li onclick="myfunc2()" class="select-item" data-id="all">Все</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Avtovo">
+                                            Автово</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Admiralteyskaya">
+                                            Адмиралтейская</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Akademicheskaya">
+                                            Академическая
                                         </li>
-                                        <li onclick="myfunc2()" class="select-item" data-id="kirovsky">Кировский</li>
-                                        <li onclick="myfunc2()" class="select-item" data-id="kolpinskiy">Колпинский</li>
-                                        <li onclick="myfunc2()" class="select-item" data-id="krasnogvardeysky">
-                                            Красногвардейский</li>
-                                        <li onclick="myfunc2()" class="select-item" data-id="krasnoselskiy">
-                                            Красносельский</li>
-                                        <li onclick="myfunc2()" class="select-item" data-id="krondshtdskiy">Кронштадский
+                                        <li onclick="myfunc2()" class="select-item" data-id="Baltiyskaya">Балтийская
                                         </li>
-                                        <li onclick="myfunc2()" class="select-item" data-id="kurortny">Курортный</li>
-                                        <li onclick="myfunc2()" class="select-item" data-id="moskovsky">Московский</li>
-                                        <li onclick="myfunc2()" class="select-item" data-id="nevsky">Невский</li>
-                                        <li onclick="myfunc2()" class="select-item" data-id="petrogradsky">Петроградский
+                                        <li onclick="myfunc2()" class="select-item" data-id="Begovaya">Беговая</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Bukharestskaya">
+                                            Бухарестская
                                         </li>
-                                        <li onclick="myfunc2()" class="select-item" data-id="petrodvorcovy">
-                                            Петродворцовый</li>
-                                        <li onclick="myfunc2()" class="select-item" data-id="primorsky">Приморский</li>
-                                        <li onclick="myfunc2()" class="select-item" data-id="pushkinsky">Пушкинский</li>
-                                        <li onclick="myfunc2()" class="select-item" data-id="frunsenskiy">Фрунзенский
+                                        <li onclick="myfunc2()" class="select-item" data-id="Vasileostrovskaya">
+                                            Василеостровская</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Vladimirskaya">
+                                            Владимирская</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Volkovskaya">Волковская
                                         </li>
-                                        <li onclick="myfunc2()" class="select-item" data-id="centralny">Центральный</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Vyborgskaya">Выборгская
+                                        </li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Gorkovskaya">Горьковская
+                                        </li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Gostiny-Dvor">Гостиный двор
+                                        </li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Grazhdansky-Prospekt">
+                                            Гражданский проспект
+                                        </li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Devyatkino">
+                                            Девяткино</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Dostoevskaya">Достоевская
+                                        </li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Dunayskaya">Дунайская</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Yelizarovskaya">
+                                            Елизаровская
+                                        </li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Zvyozdnaya">Звёздная
+                                        </li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Zvenigorodskaya">
+                                            Звенигородская</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Kirovsky-Zavod">Кировский
+                                            завод
+                                        </li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Komendantsky-Prospekt">
+                                            Комендантский проспект</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Krestovsky-Ostrov">
+                                            Крестовский остров</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Kupchino">Купчино</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Ladozhskaya">Ладожская
+                                        </li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Leninsky-Prospekt">
+                                            Ленинский проспект</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Lesnaya">Лесная</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Ligovsky-Prospekt">
+                                            Лиговский проспект</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Lomonosovskaya">
+                                            Ломоносовская
+                                        </li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Mayakovskaya">Маяковская
+                                        </li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Mezhdunarodnaya">
+                                            Международная</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Moskovskaya">Московская
+                                        </li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Moskovskiye-Vorota">
+                                            Московские ворота</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Narvskaya">Нарвская</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Nevsky-Prospekt">
+                                            Невский проспект</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Novokrestovskaya">
+                                            Новокрестовская</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Novocherkasskaya">
+                                            Новочеркасская</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Obvodny-Kanal">Обводный
+                                            канал
+                                        </li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Obukhovo">Обухово</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Ozerki">Озерки</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Park-Pobedy">Парк Победы
+                                        </li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Parnas">Парнас</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Petrogradskaya">
+                                            Петроградская
+                                        </li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Pionerskaya">Пионерская
+                                        </li>
+                                        <li onclick="myfunc2()" class="select-item"
+                                            data-id="Ploshchad-Alexandra-Nevskogo-I">Площадь Александра
+                                            Невского-1</li>
+                                        <li onclick="myfunc2()" class="select-item"
+                                            data-id="Ploshchad-Alexandra-Nevskogo-II">Площадь Александра
+                                            Невского-2</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Ploshchad-Vosstaniya">
+                                            Площадь Восстания</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Ploshchad-Lenina">
+                                            Площадь Ленина</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Ploschad-Muzhestva">
+                                            Площадь Мужества</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Politekhnicheskaya">
+                                            Политехническая</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Primorskaya">Приморская
+                                        </li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Proletarskaya">Пролетарская
+                                        </li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Prospekt-Bolshevikov">
+                                            Проспект Большевиков</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Prospekt-Veteranov">
+                                            Проспект Ветеранов</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Prospect-Prosvesheniya">
+                                            Проспект Просвещения</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Prospekt-Slavy">Проспект
+                                            Славы
+                                        </li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Pushkinskaya">Пушкинская
+                                        </li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Rybatskoye">Рыбацкое
+                                        </li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Sadovaya">Садовая</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Sennaya-Ploschad">
+                                            Сенная площадь</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Spasskaya">Спасская</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Sportivnaya">Спортивная
+                                        </li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Staraya-Derevnya">
+                                            Старая Деревня</li>
+                                        <li onclick="myfunc2()" class="select-item"
+                                            data-id="Tekhnologichesky-Institut-I">
+                                            Технологический институт I</li>
+                                        <li onclick="myfunc2()" class="select-item"
+                                            data-id="Tekhnologichesky-Institut-II">Технологический институт II</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Udelnaya">Удельная</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Ulitsa-Dybenko">Улица
+                                            Дыбенко
+                                        </li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Frunzenskaya">Фрунзенская
+                                        </li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Chyornaya-Rechka">
+                                            Чёрная речка</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Chernyshevskaya">
+                                            Чернышевская</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Chkalovskaya">Чкаловская
+                                        </li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Shushary">Шушары</li>
+                                        <li onclick="myfunc2()" class="select-item" data-id="Elektrosila">Электросила
+                                        </li>
                                     </ul>
                                 </div>
                             </div>

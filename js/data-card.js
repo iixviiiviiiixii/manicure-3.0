@@ -4,10 +4,10 @@ const card = [
     // City Nails & Beauty
     {
         id: 1,
-        areaClass: 'petrogradsky kalininsky',
+        areaClass: 'Gorkovskaya Ploshchad-Lenina',
         logo: 'img/city nails & beauty/logo.jpg',
         name: 'City Nails & Beauty',
-        area: '<div class="card-badge-item"><div class="card-dot-badge"></div>Калининский</div> <div class="card-badge-item"><div class="card-dot-badge"></div>Петроградский</div>',
+        area: '<div class="card-badge-item"><div class="card-dot-badge"></div>Горьковская</div> <div class="card-badge-item"><div class="card-dot-badge"></div>Площадь Ленина</div>',
         img1: 'img/city nails & beauty/1.jpg',
         img2: 'img/city nails & beauty/2.jpg',
         img3: 'img/city nails & beauty/3.jpg',
@@ -21,10 +21,10 @@ const card = [
     // Lovenails
     {
         id: 2,
-        areaClass: 'centralny',
+        areaClass: 'Gostiny-Dvor Mayakovskaya',
         logo: 'img/lovenails/logo.jpg',
         name: 'Lovenails',
-        area: '<div class="card-badge-item"><div class="card-dot-badge"></div>Центральный</div>',
+        area: '<div class="card-badge-item"><div class="card-dot-badge"></div>Гостиный двор</div> <div class="card-badge-item"><div class="card-dot-badge"></div>Маяковская</div>',
         img1: 'img/lovenails/1.jpg',
         img2: 'img/lovenails/2.jpg',
         img3: 'img/lovenails/3.jpg',
@@ -38,10 +38,10 @@ const card = [
     // "Leona"
     {
         id: 3,
-        areaClass: 'moskovsky petrogradsky centralny',
+        areaClass: 'Chkalovskaya',
         logo: 'img/leona/logo.jpg',
         name: 'Leona',
-        area: '<div class="card-badge-item"><div class="card-dot-badge"></div>Московский</div><div class="card-badge-item"><div class="card-dot-badge"></div>Петроградский</div><div class="card-badge-item"><div class="card-dot-badge"></div>Центральный</div>',
+        area: '<div class="card-badge-item"><div class="card-dot-badge"></div>Чкаловская</div>',
         img1: 'img/leona/1.jpg',
         img2: 'img/leona/2.jpg',
         img3: 'img/leona/3.jpg',
@@ -55,10 +55,10 @@ const card = [
     // guru маникюра
     {
         id: 4,
-        areaClass: 'vasileostrovsky kurortny centralny',
+        areaClass: 'Vladimirskaya',
         logo: 'img/guru маникюра/logo.jpg',
         name: 'Guru маникюра',
-        area: '<div class="card-badge-item"><div class="card-dot-badge"></div>Василеостровский</div><div class="card-badge-item"><div class="card-dot-badge"></div>Курортный</div><div class="card-badge-item"><div class="card-dot-badge"></div>Центральный</div>',
+        area: '<div class="card-badge-item"><div class="card-dot-badge"></div>Владимирская</div>',
         img1: 'img/guru маникюра/1.jpg',
         img2: 'img/guru маникюра/2.jpg',
         img3: 'img/guru маникюра/3.jpg',
@@ -72,10 +72,10 @@ const card = [
     // Backstage
     {
         id: 5,
-        areaClass: 'centralny',
+        areaClass: 'Gostiny-Dvor',
         logo: 'img/backstage/logo.jpg',
         name: 'Backstage',
-        area: '<div class="card-badge-item"><div class="card-dot-badge"></div>Центральный</div>',
+        area: '<div class="card-badge-item"><div class="card-dot-badge"></div>Гостинный Двор</div>',
         img1: 'img/backstage/1.jpg',
         img2: 'img/backstage/2.jpg',
         img3: 'img/backstage/3.jpg',
